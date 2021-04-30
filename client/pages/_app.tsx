@@ -1,6 +1,6 @@
 import React from 'react';
 import './common.scss';
 
-export default () => {
-    return <></>;
+export default function App({ Component, pageProps }) {
+    return <Component {...pageProps} />
 }
