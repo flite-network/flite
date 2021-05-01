@@ -1,5 +1,6 @@
 # FLITE
 [Webpage](https://www.flite.network)
+
 A community of passionate teen tech entreprenuers learning and growing together.
 
 # Developer Discord
