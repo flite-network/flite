@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import styles from './Navbar.module.scss'
 
 export default class Navbar extends React.Component {
