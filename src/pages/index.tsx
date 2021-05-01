@@ -1,20 +1,15 @@
 import useSwr from 'swr';
 
-import React, {Component} from 'react';
+import React from 'react';
 import Navbar from '../components/Navbar';
 
-class Index extends Component {
-    constructor(props) {
-        super(props);
-        const {data, error} = useSwr('api/test');
-        console.log(data);
-    }
+const Index = () => {
+    const {data, error} = useSwr('api/test');
+    console.log(data);
 
-    render() {
-        return (
-            <Navbar />
-        )
-    }
+    return (
+         <Navbar />
+    );
 }
 
 export default Index;
