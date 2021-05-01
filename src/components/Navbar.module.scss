@@ -19,8 +19,19 @@
     user-select: none;
     cursor: pointer;
 }
-.title:hover {
-    opacity: 0.8;
+.title:hover, .title:active {
+    opacity: 0.5;
+}
+
+.right {
+    float: right;
+    margin-right: 5px;
+    margin-top: -62px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.right:hover, .title:active {
+    opacity: 0.5;
 }
 /* 
     color: #206bce;*/
