@@ -5,7 +5,11 @@ body {
 
 .login-body {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
+    padding: 10px;
     margin-left: 50%;
     transform: translate(-50%);
+    border: solid 1px #333;
+    border-radius: 10px;
+    width: 250px;
 }
