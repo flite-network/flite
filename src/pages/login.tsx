@@ -1,14 +1,9 @@
-import useSwr from 'swr';
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Button from '../components/Button';
 import Input from '../components/Input';
 
 const Index = () => {
-    const {data, error} = useSwr('api/test');
-    console.log(data);
-
     return (
         <>
             <Navbar />
